@@ -1,0 +1,105 @@
+[
+  {
+    "slug": "lautan-senja",
+    "title": "Lautan Senja",
+    "description": "Seorang nelayan tua menyusuri pesisir utara mencari arti dari sebuah janji yang ia buat tiga puluh tahun lalu. Sebuah kisah sunyi tentang laut, waktu, dan pengampunan.",
+    "youtubeId": "fMpjENF1VDc",
+    "category": "Drama Original",
+    "tags": ["Drama", "Keluarga", "Indonesia"],
+    "releaseDate": "2026-01-12",
+    "durationMinutes": 24,
+    "featured": true
+  },
+  {
+    "slug": "jejak-rimba",
+    "title": "Jejak Rimba",
+    "description": "Tim peneliti muda menyusuri hutan Kalimantan untuk mendokumentasikan satwa langka sebelum habitatnya hilang selamanya.",
+    "youtubeId": "9cm753kp0uo",
+    "category": "Dokumenter",
+    "tags": ["Alam", "Petualangan"],
+    "releaseDate": "2025-11-03",
+    "durationMinutes": 31,
+    "featured": true
+  },
+  {
+    "slug": "kota-tanpa-nama",
+    "title": "Kota Tanpa Nama",
+    "description": "Di kota yang tak pernah tertulis di peta, seorang detektif mengusut hilangnya seorang anak yang ternyata menyimpan rahasia seluruh kota.",
+    "youtubeId": "lpZIMwh_Lng",
+    "category": "Thriller",
+    "tags": ["Misteri", "Kriminal"],
+    "releaseDate": "2026-02-20",
+    "durationMinutes": 38,
+    "featured": true
+  },
+  {
+    "slug": "warung-bu-tinah",
+    "title": "Warung Bu Tinah",
+    "description": "Komedi situasi tentang warung kecil di pinggir kota yang jadi tempat singgah segala macam orang dan segala macam masalah.",
+    "youtubeId": "hnxvhjdIKQ4",
+    "category": "Komedi",
+    "tags": ["Komedi", "Slice of Life"],
+    "releaseDate": "2025-09-14",
+    "durationMinutes": 18
+  },
+  {
+    "slug": "garis-cakrawala",
+    "title": "Garis Cakrawala",
+    "description": "Dua arsitek muda bersaing memenangkan proyek menara tertinggi di Asia Tenggara, sambil diam-diam saling jatuh hati.",
+    "youtubeId": "-8_rsyRGrDc",
+    "category": "Drama Original",
+    "tags": ["Drama", "Romansa"],
+    "releaseDate": "2025-12-01",
+    "durationMinutes": 27
+  },
+  {
+    "slug": "anak-anak-bintang",
+    "title": "Anak-Anak Bintang",
+    "description": "Empat remaja di desa terpencil membangun teleskop dari barang bekas untuk membuktikan keberadaan planet baru.",
+    "youtubeId": "9cm753kp0uo",
+    "category": "Keluarga",
+    "tags": ["Keluarga", "Sains", "Remaja"],
+    "releaseDate": "2026-03-08",
+    "durationMinutes": 22
+  },
+  {
+    "slug": "dapur-nusantara",
+    "title": "Dapur Nusantara",
+    "description": "Menjelajahi resep warisan dari delapan provinsi yang hampir hilang ditelan zaman, dimasak ulang oleh keturunannya sendiri.",
+    "youtubeId": "xtBwopM8g7U",
+    "category": "Dokumenter",
+    "tags": ["Kuliner", "Budaya"],
+    "releaseDate": "2025-10-22",
+    "durationMinutes": 29
+  },
+  {
+    "slug": "malam-terakhir",
+    "title": "Malam Terakhir",
+    "description": "Lima orang asing terjebak di sebuah lift gedung tua pada malam pergantian tahun. Satu dari mereka menyimpan rahasia yang bisa membahayakan semuanya.",
+    "youtubeId": "hnxvhjdIKQ4",
+    "category": "Thriller",
+    "tags": ["Misteri", "Suspense"],
+    "releaseDate": "2026-01-30",
+    "durationMinutes": 41
+  },
+  {
+    "slug": "ruang-tunggu",
+    "title": "Ruang Tunggu",
+    "description": "Sekumpulan pasien di sebuah klinik kecil saling bercerita sambil menunggu, dan setiap cerita membuka luka yang berbeda-beda.",
+    "youtubeId": "fMpjENF1VDc",
+    "category": "Drama Original",
+    "tags": ["Drama", "Antologi"],
+    "releaseDate": "2025-08-17",
+    "durationMinutes": 19
+  },
+  {
+    "slug": "rute-malam",
+    "title": "Rute Malam",
+    "description": "Seorang pengemudi ojek daring berbagi kisah penumpang-penumpangnya yang aneh, lucu, dan kadang menyayat hati, sepanjang satu malam di Jakarta.",
+    "youtubeId": "lpZIMwh_Lng",
+    "category": "Komedi",
+    "tags": ["Komedi", "Urban"],
+    "releaseDate": "2026-02-05",
+    "durationMinutes": 16
+  }
+]
