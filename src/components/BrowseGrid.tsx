@@ -37,10 +37,10 @@ export function BrowseGrid({ shows, categories, posterExistsBySlug }: BrowseGrid
             type="button"
             onClick={() => setActive(cat)}
             aria-pressed={active === cat}
-            className={`flex-shrink-0 rounded-full px-4 py-2 text-sm font-medium transition-colors duration-200 ${
+            className={`flex-shrink-0 rounded-full px-4 py-2 text-sm font-semibold transition-all duration-200 ${
               active === cat
-                ? 'bg-paper text-ink'
-                : 'bg-surface text-paper/70 hover:bg-surface-raised'
+                ? 'bg-gold text-ink shadow-gold-sm'
+                : 'border border-gold/20 bg-surface text-paper/70 hover:border-gold/40 hover:bg-surface-raised hover:text-paper'
             }`}
           >
             {cat}

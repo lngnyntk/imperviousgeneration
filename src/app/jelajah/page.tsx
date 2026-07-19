@@ -32,6 +32,7 @@ export default function BrowsePage() {
       <main id="main-content" className="px-4 pb-16 pt-28 sm:px-6 lg:px-10">
         <div className="mx-auto max-w-7xl">
           <h1 className="mb-6 font-display text-3xl font-extrabold text-paper sm:text-4xl">
+            <span className="mr-3 inline-block h-2.5 w-2.5 rounded-full bg-gold align-middle" aria-hidden="true" />
             Jelajahi Tayangan
           </h1>
           <BrowseGrid shows={shows} categories={categories} posterExistsBySlug={posterExistsBySlug} />

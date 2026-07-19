@@ -7,7 +7,7 @@ export default function NotFound() {
     <>
       <Navbar />
       <main className="flex min-h-[70vh] flex-col items-center justify-center px-4 text-center">
-        <p className="font-display text-7xl font-extrabold text-signal">404</p>
+        <p className="font-display text-7xl font-extrabold text-gold">404</p>
         <h1 className="mt-4 font-display text-2xl font-bold text-paper">
           Tayangan tidak ditemukan
         </h1>
@@ -16,7 +16,7 @@ export default function NotFound() {
         </p>
         <Link
           href="/"
-          className="mt-6 rounded-lg bg-paper px-6 py-3 font-semibold text-ink transition-transform duration-300 ease-signature hover:scale-[1.03]"
+          className="mt-6 rounded-lg bg-gold px-6 py-3 font-semibold text-ink shadow-gold-sm transition-all duration-300 ease-signature hover:scale-[1.03] hover:bg-gold-bright hover:shadow-gold-md"
         >
           Kembali ke beranda
         </Link>

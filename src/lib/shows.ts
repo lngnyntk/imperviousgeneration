@@ -1,20 +1,12 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import type { Show } from '@/types/show';
-import showsJson from '@/data/shows.json';
 import { parseCsv } from './csv';
 
 /**
- * Data source switch:
- * - 'json' (default): reads src/data/shows.json directly, fastest, type-checked at build time.
- * - 'csv': reads src/data/shows.csv instead. Useful if you maintain the catalogue in a
- *    spreadsheet and export to CSV. Toggle by setting DATA_SOURCE=csv in your environment,
- *    or just change the constant below.
- *
- * Both paths resolve to the same Show[] shape, so the rest of the app never needs to know
- * which one is active.
+ * Single source of truth: shows.csv.
+ * JSON is no longer used — edit src/data/shows.csv to manage the catalogue.
  */
-const DATA_SOURCE: 'json' | 'csv' = (process.env.DATA_SOURCE as 'json' | 'csv') || 'json';
 
 function normalizeTags(raw: unknown): string[] | undefined {
   if (Array.isArray(raw)) return raw.map(String);
@@ -37,12 +29,9 @@ function fromCsvRow(row: Record<string, string>): Show {
 }
 
 function loadAllShows(): Show[] {
-  if (DATA_SOURCE === 'csv') {
-    const csvPath = path.join(process.cwd(), 'src/data/shows.csv');
-    const text = fs.readFileSync(csvPath, 'utf-8');
-    return parseCsv(text).map(fromCsvRow);
-  }
-  return showsJson as Show[];
+  const csvPath = path.join(process.cwd(), 'src/data/shows.csv');
+  const text = fs.readFileSync(csvPath, 'utf-8');
+  return parseCsv(text).map(fromCsvRow);
 }
 
 let cache: Show[] | null = null;

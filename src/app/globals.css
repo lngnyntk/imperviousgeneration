@@ -12,12 +12,8 @@
   }
 
   @media (prefers-reduced-motion: reduce) {
-    html {
-      scroll-behavior: auto;
-    }
-    *,
-    *::before,
-    *::after {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
       animation-duration: 0.01ms !important;
       animation-iteration-count: 1 !important;
       transition-duration: 0.01ms !important;
@@ -26,38 +22,53 @@
   }
 
   body {
-    background-color: #0a0a0f;
-    color: #f5f3ee;
+    background-color: #1A1008;
+    color: #F5EDD8;
   }
 
-  /* Visible, deliberate focus ring — never remove focus outlines for keyboard users */
   :focus-visible {
-    outline: 2px solid #e63946;
+    outline: 2px solid #C9963A;
     outline-offset: 3px;
     border-radius: 2px;
   }
 }
 
 @layer utilities {
-  .no-scrollbar::-webkit-scrollbar {
-    display: none;
-  }
+  .no-scrollbar::-webkit-scrollbar { display: none; }
   .no-scrollbar {
     -ms-overflow-style: none;
     scrollbar-width: none;
   }
 
-  .text-balance {
-    text-wrap: balance;
-  }
+  .text-balance { text-wrap: balance; }
 
   .skeleton {
     background: linear-gradient(
       90deg,
-      rgba(255, 255, 255, 0.04) 25%,
-      rgba(255, 255, 255, 0.09) 37%,
-      rgba(255, 255, 255, 0.04) 63%
+      rgba(201,150,58,0.04) 25%,
+      rgba(201,150,58,0.10) 37%,
+      rgba(201,150,58,0.04) 63%
     );
     background-size: 400% 100%;
+  }
+
+  /* Ambient warm glow — used on CTA buttons and featured cards */
+  .glow-gold {
+    box-shadow: 0 0 22px 4px rgba(201,150,58,0.38);
+  }
+  .glow-gold-sm {
+    box-shadow: 0 0 10px 2px rgba(201,150,58,0.25);
+  }
+
+  /* Subtle vignette grain texture overlay — adds tactile quality without images */
+  .grain::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.03'/%3E%3C/svg%3E");
+    background-size: 128px 128px;
+    mix-blend-mode: overlay;
+    opacity: 0.45;
   }
 }

@@ -19,7 +19,7 @@ import sharp from 'sharp';
 
 const ROOT = process.cwd();
 const OUT_DIR = path.join(ROOT, 'public/images/posters');
-const DATA_SOURCE = process.env.DATA_SOURCE === 'csv' ? 'csv' : 'json';
+const DATA_SOURCE = 'csv';
 
 function loadShows() {
   if (DATA_SOURCE === 'csv') {

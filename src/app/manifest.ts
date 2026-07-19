@@ -7,8 +7,8 @@ export default function manifest(): MetadataRoute.Manifest {
     description: 'Streaming tayangan original Impervious Generation, gratis tanpa login.',
     start_url: '/',
     display: 'standalone',
-    background_color: '#0A0A0F',
-    theme_color: '#0A0A0F',
+    background_color: '#1A1008',
+    theme_color: '#1A1008',
     icons: [
       {
         src: '/images/brand/icon-192.png',

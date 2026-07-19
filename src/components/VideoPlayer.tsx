@@ -79,7 +79,7 @@ export function VideoPlayer({ youtubeId, slug, title, posterExists }: VideoPlaye
       <div className="absolute inset-0 bg-ink/30 transition-colors duration-300 group-hover:bg-ink/10" />
       <span className="absolute inset-0 flex items-center justify-center">
         <span className="flex h-16 w-16 items-center justify-center rounded-full bg-paper/95 shadow-2xl transition-transform duration-300 ease-signature group-hover:scale-110 sm:h-20 sm:w-20">
-          <svg viewBox="0 0 24 24" fill="#0A0A0F" className="h-7 w-7 sm:h-8 sm:w-8">
+          <svg viewBox="0 0 24 24" fill="#1A1008" className="h-7 w-7 sm:h-8 sm:w-8">
             <path d="M8 5v14l11-7z" />
           </svg>
         </span>

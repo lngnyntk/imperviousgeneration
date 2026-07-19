@@ -22,6 +22,7 @@ export function ShowRow({ category, shows }: ShowRowProps) {
         id={`row-${category}`}
         className="mb-3 px-4 font-display text-lg font-bold text-paper sm:px-6 lg:px-10"
       >
+        <span className="mr-2 inline-block h-2 w-2 rounded-full bg-gold align-middle" aria-hidden="true" />
         {category}
       </h2>
       <div className="no-scrollbar flex gap-3 overflow-x-auto scroll-px-4 snap-x snap-mandatory px-4 pb-2 sm:scroll-px-6 sm:px-6 lg:scroll-px-10 lg:px-10">

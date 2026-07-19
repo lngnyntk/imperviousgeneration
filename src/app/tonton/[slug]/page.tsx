@@ -72,7 +72,7 @@ export default function WatchPage({ params }: PageProps) {
             posterExists={posterExists(show.slug)}
           />
 
-          <p className="mb-2 mt-6 text-sm font-semibold uppercase tracking-[0.2em] text-signal">
+          <p className="mb-2 mt-6 text-xs font-bold uppercase tracking-[0.25em] text-gold">
             {show.category}
           </p>
           <h1 className="font-display text-3xl font-extrabold text-paper sm:text-4xl">
@@ -95,7 +95,7 @@ export default function WatchPage({ params }: PageProps) {
               {show.tags.map((tag) => (
                 <li
                   key={tag}
-                  className="rounded-full bg-surface px-3 py-1 text-xs font-medium text-paper/70"
+                  className="rounded-full border border-gold/25 bg-surface px-3 py-1 text-xs font-medium text-gold/80"
                 >
                   {tag}
                 </li>
